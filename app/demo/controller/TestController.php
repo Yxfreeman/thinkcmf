@@ -13,6 +13,9 @@ use cmf\controller\BaseController;
 
 class TestController extends BaseController
 {
-
+    public  function  index()
+    {
+        echo 'hello world';
+    }
 
 }
