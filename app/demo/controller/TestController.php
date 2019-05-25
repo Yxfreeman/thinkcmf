@@ -9,9 +9,9 @@
 namespace app\demo\controller;
 
 
-use cmf\controller\BaseController;
+use cmf\controller\HomeBaseController;
 
-class TestController extends BaseController
+class TestController extends HomeBaseController
 {
     public  function  index()
     {
